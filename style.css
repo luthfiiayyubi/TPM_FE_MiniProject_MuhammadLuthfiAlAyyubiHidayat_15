@@ -45,12 +45,12 @@ html {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Card Utama */
+
 .auth-card {
   display: flex;
   width: 90%;
   max-width: 1000px;
-  /* Kunci Tinggi */
+
   height: 600px;
   background-color: #ffffff;
   border-radius: 20px;
@@ -76,10 +76,10 @@ html {
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Default untuk Registration */
+  justify-content: flex-start; 
 }
 
-/* Penyeimbang Login */
+
 .card-right-form.login-page {
   justify-content: center;
 }
@@ -89,14 +89,14 @@ html {
   font-weight: 900;
   margin-bottom: 20px;
   text-align: center;
-  color: #4a90e2; /* Default Registration */
+  color: #4a90e2; 
 }
 
 .form-title.login {
   color: #4a90e2;
 }
 
-/* Input Styles */
+
 .input-group {
   margin-bottom: 15px;
   position: relative;
@@ -148,7 +148,7 @@ html {
 }
 
 .remember-me {
-  margin-bottom: 30px; /* Jarak untuk Login */
+  margin-bottom: 30px; 
 }
 
 .terms-agreement input[type="checkbox"],
@@ -160,7 +160,7 @@ html {
   accent-color: #000;
 }
 
-/* Tombol Submit */
+
 .submit-btn {
   width: 100%;
   background-color: #333;
@@ -199,7 +199,7 @@ html {
   border-bottom: 1px solid #eee;
 }
 
-/* Social Icons */
+
 .social-login-icons {
   display: flex;
   justify-content: center;
@@ -233,7 +233,7 @@ html {
   text-align: center;
 }
 
-/* Responsiveness */
+
 @media (max-width: 900px) {
   .auth-card {
     flex-direction: column;
